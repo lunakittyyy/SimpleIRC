@@ -1,0 +1,65 @@
+/**
+ * @name SimpleIRC
+ * @author lunakittyyy
+ * @version 1.0.0
+ * @description Some tweaks to make Discord look more like an IRC room. Use with compact mode!
+*/
+
+/* messages */
+
+.headerText_f47574 { margin-right: 0rem !important; } /*remove small gap between name and message content*/
+.wrapper__09ecc { /*lessen space between messages*/
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+.rem__931aa { display: none; } /*bot tags*/
+
+/* names */
+
+.newMemberBadge__17bc0 { display: none; }
+.username_d30d99 { font-weight: normal; }
+.username_d30d99::before {color: white; content: "<";}
+.username_d30d99::after {color: white; content: ">";}
+
+/* timestamps */
+
+.separator__3f416 { display: none; }
+.header__39b23 .timestamp_cdbd93 {
+    font-size: 1rem !important;
+    font-weight: normal;
+    color: lightgreen !important;
+    opacity: 1; /* always display timestamps */
+    margin-right: 0rem !important;
+    display: inline;
+    ::before {content: "[";}
+    ::after {content: "] ";}
+}
+
+/* replies */
+
+.repliedMessage_e2bf4a::before { display: none; } /* little line thingy */
+.repliedMessage_e2bf4a { margin-left: -4.6rem !important; }
+.executedCommand_e8859a { margin-left: -4.6rem !important; }
+.replyBadge__3d01e { display: none; }
+.header__39b23 { font-weight: normal !important; }
+
+/* other */
+.divider_b9338f { /* date divider */
+    margin-top: 0.3rem !important;
+    margin-bottom: 0.3rem !important;
+}
+
+.isUnread__6f880 { /* unread divider */
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+}
+
+/* chat bar */
+
+/*space between chat bar and msgs*/
+.scrollerSpacer__9cd32 { height: 8px; }
+.form__13a2c { margin-top: 0px; }
+.dots_a97068 { display: none !important; }
+.slowModeIcon__987e1 { display: none !important; }
