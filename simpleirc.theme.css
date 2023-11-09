@@ -33,9 +33,10 @@
     opacity: 1; /* always display timestamps */
     margin-right: 0rem !important;
     display: inline;
-    ::before {content: "[";}
-    ::after {content: "] ";}
 }
+.header__39b23 .timestamp_cdbd93::before {content: "[";}
+.header__39b23 .timestamp_cdbd93::after {content: "] ";}
+
 
 /* replies */
 
