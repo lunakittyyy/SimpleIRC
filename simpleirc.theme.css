@@ -1,7 +1,7 @@
 /**
  * @name SimpleIRC
  * @author lunakittyyy
- * @version 1.0.0
+ * @version 1.1.0
  * @description Some tweaks to make Discord look more like an IRC room. Use with compact mode!
 */
 
@@ -13,7 +13,12 @@
     margin-bottom: 0rem !important;
     padding-top: 0rem !important;
     padding-bottom: 0rem !important;
+    padding-left: 1rem !important;
 }
+.header__39b23 {
+    padding-left: 4rem !important;
+}
+
 .rem__931aa { display: none; } /*bot tags*/
 
 /* names */
@@ -34,17 +39,14 @@
     margin-right: 0rem !important;
     display: inline;
 }
+
 .header__39b23 .timestamp_cdbd93::before {content: "[";}
 .header__39b23 .timestamp_cdbd93::after {content: "] ";}
-
 
 /* replies */
 
 .repliedMessage_e2bf4a::before { display: none; } /* little line thingy */
-.repliedMessage_e2bf4a { margin-left: -4.6rem !important; }
-.executedCommand_e8859a { margin-left: -4.6rem !important; }
 .replyBadge__3d01e { display: none; }
-.header__39b23 { font-weight: normal !important; }
 
 /* other */
 .divider_b9338f { /* date divider */
@@ -57,10 +59,9 @@
     margin-bottom: 0rem !important;
 }
 
-/* chat bar */
-
 /*space between chat bar and msgs*/
 .scrollerSpacer__9cd32 { height: 8px; }
+
 .form__13a2c { margin-top: 0px; }
 .dots_a97068 { display: none !important; }
 .slowModeIcon__987e1 { display: none !important; }
