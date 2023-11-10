@@ -1,7 +1,7 @@
 /**
  * @name SimpleIRC
  * @author lunakittyyy
- * @version 1.1.4
+ * @version 1.1.5
  * @description Some tweaks to make Discord look more like an IRC room. Use with compact mode!
 */
 
@@ -19,6 +19,7 @@
 .compact_cc2939 .spanCorrection__69622 { display: inline !important; } /*automod fix*/
 .text-md-normal__4afad .username__60f9f { display: inline !important; }/*automod fix*/
 .avatar__08316 { display: none; } /*pins fix - a more proper thing for this is needed*/
+.avatarDecoration__14b3c { display: none; }
 .botTag__4211a { display: none; } /*bot tags*/
 
 /* names */
